@@ -16,7 +16,7 @@
   <section class="container">
     <div id="clock"></div>
     
-    <input name="alarmTime" type="datetime-local">
+    <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
 
     <div class="controls">
       <button class="button set-alarm">Set alarm</button>
